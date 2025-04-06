@@ -1,0 +1,136 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "join-a-new-reddit-community;join-r/eyebleach-subreddit-as-a-logged-in-user",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Join r/EyeBleach subreddit as a logged-in user",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 393163199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the Reddit login page",
+            "match": {
+              "location": "src\\step-definitions\\shared\\commonSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 693777000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I log in with the saved credentials",
+            "match": {
+              "location": "src\\step-definitions\\shared\\commonSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 430643699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I go to the \"EyeBleach\" subreddit",
+            "match": {
+              "location": "src\\step-definitions\\community\\communitySteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2919416199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the Join button",
+            "match": {
+              "location": "src\\step-definitions\\community\\communitySteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10069951999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I log in again if login modal appears",
+            "match": {
+              "location": "src\\step-definitions\\community\\communitySteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4087944600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click the Join button again to unjoin",
+            "match": {
+              "location": "src\\step-definitions\\community\\communitySteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5647717899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143771000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo",
+            "line": 1
+          },
+          {
+            "name": "@JoinCommunity",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "join-a-new-reddit-community",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Join a New Reddit Community",
+    "tags": [
+      {
+        "name": "@Demo",
+        "line": 1
+      },
+      {
+        "name": "@JoinCommunity",
+        "line": 1
+      }
+    ],
+    "uri": "src\\features\\community\\community.feature"
+  }
+]
